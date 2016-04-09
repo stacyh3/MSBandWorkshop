@@ -1,0 +1,65 @@
+{
+  "$type": "DesignerContents",
+  "DesignerState": {
+    "$type": "DesignerState",
+    "BandLayout": {
+      "$type": "BandLayout",
+      "Version": {
+        "$type": "Version",
+        "Major": 2,
+        "Build": -1,
+        "Revision": -1
+      },
+      "BandTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "TileTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "RootPanel": {
+        "$type": "FlowPanel",
+        "Elements": {
+          "$type": "Elements",
+          "$values": [
+            {
+              "$type": "Barcode",
+              "BarcodeType": 1,
+              "BarCode": "Stacy",
+              "Name": "ScanCode",
+              "ElementId": 2,
+              "Id": "6c2cbff9-a7ad-490f-a67c-f7d7a89de02b",
+              "Width": 248,
+              "Height": 128,
+              "Visible": true
+            }
+          ]
+        },
+        "Name": "",
+        "ElementId": 1,
+        "Id": "ae6b37f5-573b-40bc-93fe-9ebac863c937",
+        "Width": 248,
+        "Height": 128,
+        "Visible": true
+      }
+    },
+    "SelectedElements": {
+      "$type": "IdList",
+      "$values": [
+        "6c2cbff9-a7ad-490f-a67c-f7d7a89de02b"
+      ]
+    }
+  },
+  "ZoomPercent": 100.0
+}

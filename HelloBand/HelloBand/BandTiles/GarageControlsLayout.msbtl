@@ -1,0 +1,86 @@
+{
+  "$type": "DesignerContents",
+  "DesignerState": {
+    "$type": "DesignerState",
+    "BandLayout": {
+      "$type": "BandLayout",
+      "Version": {
+        "$type": "Version",
+        "Major": 2,
+        "Build": -1,
+        "Revision": -1
+      },
+      "BandTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "TileTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "RootPanel": {
+        "$type": "FlowPanel",
+        "Elements": {
+          "$type": "Elements",
+          "$values": [
+            {
+              "$type": "TextButton",
+              "PressedColor": "R: 32, G: 32, B: 32",
+              "Text": "Open",
+              "Name": "",
+              "ElementId": 2,
+              "Id": "9e8900ec-f30e-472e-99a8-309a1b07b11e",
+              "Width": 90,
+              "Height": 32,
+              "LeftMargin": 10,
+              "TopMargin": 10,
+              "RightMargin": 10,
+              "BottomMargin": 10,
+              "HorizontalAlignment": 2,
+              "Visible": true
+            },
+            {
+              "$type": "TextButton",
+              "PressedColor": "R: 32, G: 32, B: 32",
+              "Text": "Close",
+              "Name": "",
+              "ElementId": 3,
+              "Id": "9ed4d146-3506-42d8-9d17-00e87e08c8ad",
+              "Width": 90,
+              "Height": 32,
+              "LeftMargin": 10,
+              "TopMargin": 10,
+              "RightMargin": 10,
+              "BottomMargin": 10,
+              "HorizontalAlignment": 2,
+              "Visible": true
+            }
+          ]
+        },
+        "Name": "",
+        "ElementId": 1,
+        "Id": "e3cb3fc6-f916-40c4-a127-a2fa0566b061",
+        "Width": 248,
+        "Height": 128,
+        "Visible": true
+      }
+    },
+    "SelectedElements": {
+      "$type": "IdList",
+      "$values": [
+        "9e8900ec-f30e-472e-99a8-309a1b07b11e"
+      ]
+    }
+  },
+  "ZoomPercent": 100.0
+}

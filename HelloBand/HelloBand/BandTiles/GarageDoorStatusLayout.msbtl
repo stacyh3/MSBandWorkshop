@@ -1,0 +1,90 @@
+{
+  "$type": "DesignerContents",
+  "DesignerState": {
+    "$type": "DesignerState",
+    "BandLayout": {
+      "$type": "BandLayout",
+      "Version": {
+        "$type": "Version",
+        "Major": 2,
+        "Build": -1,
+        "Revision": -1
+      },
+      "BandTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "TileTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "RootPanel": {
+        "$type": "FlowPanel",
+        "Elements": {
+          "$type": "Elements",
+          "$values": [
+            {
+              "$type": "TextBlock",
+              "AutoWidth": true,
+              "Color": "R: 255, G: 255, B: 255",
+              "Text": "Garage Door Status",
+              "Name": "Title",
+              "ElementId": 2,
+              "Id": "b604befa-0122-4c26-9751-649d9cecda05",
+              "Width": 32,
+              "Height": 32,
+              "Visible": true
+            },
+            {
+              "$type": "TextBlock",
+              "AutoWidth": true,
+              "Color": "R: 255, G: 255, B: 255",
+              "Text": "Open:",
+              "Name": "OpenTime",
+              "ElementId": 3,
+              "Id": "07533554-22c3-4e13-8fef-6e0d41fe8f08",
+              "Width": 32,
+              "Height": 32,
+              "Visible": true
+            },
+            {
+              "$type": "TextBlock",
+              "AutoWidth": true,
+              "Color": "R: 255, G: 255, B: 255",
+              "Text": "Closed:",
+              "Name": "CloseTime",
+              "ElementId": 4,
+              "Id": "f832fda9-e8b9-486c-8ce5-60b4e99783e4",
+              "Width": 32,
+              "Height": 32,
+              "Visible": true
+            }
+          ]
+        },
+        "Name": "GaragePage",
+        "ElementId": 1,
+        "Id": "fc53fd79-e68b-4a97-ab02-466369a8a22d",
+        "Width": 248,
+        "Height": 128,
+        "Visible": true
+      }
+    },
+    "SelectedElements": {
+      "$type": "IdList",
+      "$values": [
+        "f832fda9-e8b9-486c-8ce5-60b4e99783e4"
+      ]
+    }
+  },
+  "ZoomPercent": 178.0
+}
