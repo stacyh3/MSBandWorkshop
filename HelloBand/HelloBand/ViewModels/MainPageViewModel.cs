@@ -168,8 +168,8 @@ namespace HelloBand.ViewModels
             tile = new BandTile(tileGuid)
             {
                 Name = "Home Monitor",
-                SmallIcon = await LoadIcon(uri: "ms-appx:///Assets/SmallIcon.png"),
-                TileIcon = await LoadIcon(uri: "ms-appx:///Assets/LargeIcon.png")
+                SmallIcon = await LoadIconAsync(uri: "ms-appx:///Assets/SmallIcon.png"),
+                TileIcon = await LoadIconAsync(uri: "ms-appx:///Assets/LargeIcon.png")
             };
 
             tile.PageLayouts.Add(statusLayout.Layout);
@@ -255,7 +255,7 @@ namespace HelloBand.ViewModels
         }
 
         private void Accelerometer_ReadingChanged(object sender, BandSensorReadingEventArgs<IBandAccelerometerReading> e)
-        {
+        {            
             AccelerationX = e.SensorReading.AccelerationX;
             AccelerationY = e.SensorReading.AccelerationY;
             AccelerationZ = e.SensorReading.AccelerationZ;
@@ -412,7 +412,7 @@ namespace HelloBand.ViewModels
         }
 
 
-        private async Task<BandIcon> LoadIcon(string uri)
+        private async Task<BandIcon> LoadIconAsync(string uri)
         {
             StorageFile imageFile = await StorageFile.GetFileFromApplicationUriAsync(new Uri(uri));
 
